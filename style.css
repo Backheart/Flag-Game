@@ -1,0 +1,125 @@
+
+.game-container {
+ padding: 10px;
+  height: 100hv;
+  text-align: center;
+
+}
+ 
+.scoreboard {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.flag-container {
+  margin-bottom: 20px;
+}
+
+#guess-input {
+  width: 200px;
+  height: 30px;
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: rgba(0, 255, 255, 0.11);
+}
+
+#submit-guess, #reset-game, #random-flag-btn {
+  width: 120px;
+  height: 40px; 
+  border-radius: 8px;
+  margin-top: 10px;
+  font-size: .8rem;
+  
+}
+
+#result-message {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.flag-container{
+  width: 40%;
+}
+
+
+.bottom-btn-input{
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+footer{
+  clear: both; 
+ padding: 0; 
+  margin-top: 70px;
+  font-size: .9rem;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+/* Add background color options */
+body {
+
+  background-color: #f0f0f0; /* Default background color */
+}
+
+.background-dark {
+  background-color: #333;
+}
+
+.background-grey {
+  background-color: #918e8e;
+}
+
+.background-blue {
+  background-color: #87CEEB;
+}
+
+
+/* Position dropdown menu near high score */
+.dropdown-btn {
+  position: absolute;
+  top: 40px;
+  left: 10px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 80px;
+  left: 10px;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  
+}
+
+.dropdown-content button {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content button:hover {background-color: #f1f1f1}
+
+.dropdown-btn:hover + .dropdown-content {
+  display: block;
+}
+
+.dropdown-content:hover {
+  display: block;
+}
